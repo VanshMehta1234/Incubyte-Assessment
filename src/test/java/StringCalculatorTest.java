@@ -39,8 +39,8 @@ public class StringCalculatorTest {
         assertEquals(10, calculator.add("//|\n1|2|3|4"));
         assertEquals(6, calculator.add("//;\n1;2\n3"));
         assertEquals(10, calculator.add("//|\n1|2|3|4\n"));
+        assertEquals(15, calculator.add("//;\n4\n;5\n;3\n;1\n;2\n"));
+        assertEquals(15, calculator.add("//;;\n4\n;;5\n;;3\n;;1\n;;2\n"));
     }
-
-
 
 }
